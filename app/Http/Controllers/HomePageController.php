@@ -18,4 +18,8 @@ class HomePageController extends Controller
         Guest::create($guest);
         return view('homepage');
     }
+    public function allGuest(){
+        $guest = Guest::all();
+        return view('guest_list')->with('guest', $guest);
+    }
 }

@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'HomePageController@homepage');
+Route::get('/tum-ziyaretciler', 'HomePageController@allGuest');
 Route::post('/addGuest', 'HomePageController@addGuest');
