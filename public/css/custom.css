@@ -1,0 +1,35 @@
+html {
+    background: url(../images/bg.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.top-menu{
+    position:absolute;
+    top:0;
+    right:185px;
+    background-color:rgba(0, 0, 0, 0.75);/*#000*/
+    width:208px;
+    height:82px;
+}
+.mid-menu{
+    position:absolute;
+    top:150px;
+    left:150px;
+    background-color:rgba(51, 51, 51, 0.75);/*333*/
+    width:380px;
+    height:215px;
+}
+.foot-menu{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.75);/*#000*/
+    height:132px;
+}
+.padding-clear{
+    padding:0!important;
+}
